@@ -79,6 +79,6 @@ public class StudentRepository {
       for(String s:students){
          smap.remove(s);
       }
-
+      tmap.clear();
    }
 }
